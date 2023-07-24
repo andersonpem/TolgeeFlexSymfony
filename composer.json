@@ -1,0 +1,24 @@
+{
+  "name": "andersonpem/tolgee-flex-symfony",
+  "version": "0.0.1",
+  "type": "library",
+  "description": "Symfony Tolgee Integration Package",
+  "keywords": ["symfony", "tolgee", "localization"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anderson Souza",
+      "email": "sza.andersonsilva@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TolgeeSymfonyIntegration\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "tolgee/core": "^1.0",
+    "symfony/cache": ">=5.0"
+  }
+}
